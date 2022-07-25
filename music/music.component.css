@@ -1,0 +1,29 @@
+
+h1{
+    text-align: center;
+    background-color: brown;
+}
+div {
+    text-align: center;
+    text-decoration-color: blue;
+    font-style: bold;
+}
+#post-success-alert{
+    display : none;
+    
+    }
+    
+    #post-success-alert {
+        display : none;
+    }
+    
+    #post-success-alert {
+        opacity: 1;
+        animation: fadeInOut 4s;
+    }
+    
+    
+    @keyframes fadeInOut {
+      0%,100% { opacity: 0 }
+      50% { opacity: 1 }
+    }
